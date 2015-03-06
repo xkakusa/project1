@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #ddd;
+	
+}
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.notes {
+	width: 100%;
+	padding: 10px;
+	margin: 25px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h1, h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+p, ul, ol {
+	width: 50%;
+	margin: 0 auto;
+}
+.toc {
+	font-size: 1.5em;
+}
+.toc a:visited {
+	color: black;
+}
+.toc a:hover {
+	color: rgba(0,0,0,0.5);
+}
+.toc ul {
+	list-style: none;
+	margin: 5px 30px;
+}
+.toc li {
+	padding-bottom: 5px;
+}
+
